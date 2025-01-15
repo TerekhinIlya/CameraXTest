@@ -15,23 +15,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/captureButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Сделать фото"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="16dp" />
+<!--    <Button-->
+<!--        android:id="@+id/captureButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Сделать фото"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginBottom="16dp" />-->
 
-    <Button
-        android:id="@+id/switchCameraButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Сменить камеру"
-        app:layout_constraintBottom_toTopOf="@+id/captureButton"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginBottom="8dp" />
+<!--    <Button-->
+<!--        android:id="@+id/switchCameraButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Сменить камеру"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/captureButton"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        android:layout_marginBottom="8dp" />-->
 </androidx.constraintlayout.widget.ConstraintLayout>
